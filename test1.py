@@ -19,5 +19,4 @@ rem2 = b % count
 d = 1
 for i in range(rem2):
     d *= rem1
-
 print(d % c)
