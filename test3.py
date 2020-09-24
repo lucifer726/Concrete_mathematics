@@ -26,4 +26,4 @@ def fun(x):
 
 
 if __name__ == "__main__":
-    fun(1000000)
+    fun(100000)
