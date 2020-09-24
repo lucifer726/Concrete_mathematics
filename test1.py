@@ -20,4 +20,4 @@ d = 1
 for i in range(rem2):
     d *= rem1
 
-print(d % 7)
+print(d % c)
