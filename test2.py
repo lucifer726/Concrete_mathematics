@@ -1,6 +1,7 @@
 # 输入正整数a
 # 输出a以内的素数的个数
 import math
+
 # 定义素数列表
 list = [2]
 a = int(input("input a:"))
@@ -18,7 +19,7 @@ for i in range(3, a):
     if flag == 0:
         print(i)
         count += 1
-        if(len(list)<=b):
+        if (len(list) <= b):
             list.append(i)
 
 print("{}以内素数个数为：{}".format(a, count))
