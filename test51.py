@@ -7,13 +7,14 @@ n = int(input("请输入："))
 list = []
 # 找到小于n的所有素数
 for i in range(2, n):
-    for num in range(2, int(math.sqrt(n))):
-        flag = 0
-    if i % num == 0:
-        flag = 1
+    j = 2
+    for j in range(2, i):
+        if (i % j == 0):
+            break
     else:
         list.append(i)
 
+print(list)
 # count中保存阶数
 count = []
 newlist = []
@@ -27,6 +28,8 @@ for i in list:
         n = n / i
     if m > 0:
         count.append(m)
+
+print(newlist, count)
 sum = sum(count)
 c = 1
 for i in range(len(newlist)):
