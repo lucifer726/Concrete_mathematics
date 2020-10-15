@@ -14,7 +14,6 @@ for i in range(2, n):
     else:
         list.append(i)
 
-print(list)
 # count中保存阶数
 count = []
 newlist = []
@@ -29,7 +28,6 @@ for i in list:
     if m > 0:
         count.append(m)
 
-print(newlist, count)
 sum = sum(count)
 c = 1
 for i in range(len(newlist)):
