@@ -1,7 +1,7 @@
 # 输入n，输出分子分母都不大于n的有序最简分数序列
 from fractions import Fraction
 
-n = int(input("请输入n："))
+n = int(input("请输入n ："))
 
 listkey, listvalue = [], []
 # 找到分子分母都都不大于n的所有数
